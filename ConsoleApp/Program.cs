@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp
+namespace AcunmedyaAkademi
 {
     class Program
     {
@@ -16,6 +16,8 @@ namespace ConsoleApp
                 Console.WriteLine("\nAcunmedya Akademi Ödevleri Ana Menüsü:");
                 Console.WriteLine("1 - Homework1");
                 Console.WriteLine("2 - Operators");
+                Console.WriteLine("3 - Homework2");
+                Console.WriteLine("4 - Methods");
                 Console.WriteLine("0 - Çıkış");
                 Console.Write("Seçiminiz: ");
                 int secim = Convert.ToInt32(Console.ReadLine());
@@ -27,6 +29,12 @@ namespace ConsoleApp
                         break;
                     case 2:
                         Operators.Menu();
+                        break;
+                    case 3:
+                        Homework2.Menu();
+                        break;
+                    case 4:
+                        Methods.Menu();
                         break;
                     case 0:
                         Console.WriteLine("Programdan çıkılıyor...");

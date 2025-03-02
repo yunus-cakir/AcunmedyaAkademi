@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp
+namespace AcunmedyaAkademi
 {
     internal class Homework1
     {
