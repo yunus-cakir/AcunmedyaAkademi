@@ -18,6 +18,7 @@ namespace AcunmedyaAkademi
                 Console.WriteLine("2 - Operators");
                 Console.WriteLine("3 - Homework2");
                 Console.WriteLine("4 - Methods");
+                Console.WriteLine("5 - Homework3");
                 Console.WriteLine("0 - Çıkış");
                 Console.Write("Seçiminiz: ");
                 int secim = Convert.ToInt32(Console.ReadLine());
@@ -35,6 +36,9 @@ namespace AcunmedyaAkademi
                         break;
                     case 4:
                         Methods.Menu();
+                        break;
+                    case 5:
+                        Homework3.Menu();
                         break;
                     case 0:
                         Console.WriteLine("Programdan çıkılıyor...");

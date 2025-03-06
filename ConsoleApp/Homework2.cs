@@ -26,8 +26,9 @@ namespace AcunmedyaAkademi
                 Console.WriteLine("10 - 10’dan Küçük Sayıları Silme");
                 Console.WriteLine("11 - 50’nin Altındaki Notları Güncelleme");
                 Console.WriteLine("0 - Geri Dön");
-                Console.Write("Seçiminiz: ");
+                Console.WriteLine("Seçiminiz: ");
                 int secim = Convert.ToInt32(Console.ReadLine());
+                Console.Write("\n");
 
                 switch (secim)
                 {

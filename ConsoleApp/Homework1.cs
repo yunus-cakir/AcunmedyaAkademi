@@ -18,8 +18,9 @@ namespace AcunmedyaAkademi
                 Console.WriteLine("4 - Üç Sayının En Büyüğünü Bulma");
                 Console.WriteLine("5 - Şifre Güçlülüğünü Kontrol Etme");
                 Console.WriteLine("0 - Geri Dön");
-                Console.Write("Seçiminiz: ");
+                Console.WriteLine("Seçiminiz: ");
                 int secim = Convert.ToInt32(Console.ReadLine());
+                Console.Write("\n");
 
                 switch (secim)
                 {
