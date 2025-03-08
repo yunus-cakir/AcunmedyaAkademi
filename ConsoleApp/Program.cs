@@ -19,6 +19,10 @@ namespace AcunmedyaAkademi
                 Console.WriteLine("3 - Homework2");
                 Console.WriteLine("4 - Methods");
                 Console.WriteLine("5 - Homework3");
+                Console.WriteLine("6 - January1");
+                Console.WriteLine("7 - January2");
+                Console.WriteLine("8 - January3");
+                Console.WriteLine("9 - January4");
                 Console.WriteLine("0 - Çıkış");
                 Console.Write("Seçiminiz: ");
                 int secim = Convert.ToInt32(Console.ReadLine());
@@ -39,6 +43,21 @@ namespace AcunmedyaAkademi
                         break;
                     case 5:
                         Homework3.Menu();
+                        break;
+                    case 6:
+                        January1.Menu();
+                        break;
+                    case 7:
+                        January2.Menu();
+                        break;
+                    case 8:
+                        January3.Menu();
+                        break;
+                    case 9:
+                        January4.Menu();
+                        break;
+                    case 10:
+                        February1.Menu();
                         break;
                     case 0:
                         Console.WriteLine("Programdan çıkılıyor...");
